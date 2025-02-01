@@ -1,0 +1,14 @@
+<ul class="flex flex-col gap-4">
+  <li>
+    <%= render DialogComponent.new(message: 'this is info', type: :info) %>
+  </li>
+  <li>
+    <%= render DialogComponent.new(message: 'this is success', type: :success) %>
+  </li>
+  <li>
+    <%= render DialogComponent.new(message: 'this is warning', type: :warning) %>
+  </li>
+  <li>
+    <%= render DialogComponent.new(message: 'this is error', type: :error) %>
+  </li>
+</ul>

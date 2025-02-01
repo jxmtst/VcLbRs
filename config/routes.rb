@@ -12,5 +12,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   resources :home, only: %i[index show]
 
+  draw(:local) if Rails.env.local?
+
   root "home#index"
 end
