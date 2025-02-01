@@ -1,0 +1,6 @@
+
+<turbo-frame id="dialog">
+<div class="alert alert-info rounded flex flex-nowrap">
+  <i class="fas fa-info-circle"></i><p>Hello, world!</p>
+</div>
+</turbo-frame>

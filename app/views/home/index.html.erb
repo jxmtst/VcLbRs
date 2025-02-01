@@ -1,0 +1,12 @@
+<div class="flex gap-4 p-4">
+  <%= link_to('info', home_path('info'), data: { turbo_frame: 'dialog' }, class: "btn btn-sm btn-info rounded") %>
+  <%= link_to('success', home_path('success'), data: { turbo_frame: 'dialog' }, class: "btn btn-sm btn-success rounded") %>
+  <%= link_to('warning', home_path('warning'), data: { turbo_frame: 'dialog' }, class: "btn btn-sm btn-warning rounded") %>
+  <%= link_to('error', home_path('error'), data: { turbo_frame: 'dialog' }, class: "btn btn-sm btn-error rounded") %>
+</div>
+
+<div class="flex items-center justify-center">
+<%= turbo_frame_tag "dialog" do %>
+  <div></div>
+<% end %>
+</div>

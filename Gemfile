@@ -49,8 +49,8 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 
-  gem 'rspec-rails'
-  gem 'rspec-snapshot'
+  gem "rspec-rails"
+  gem "rspec-snapshot"
 end
 
 group :development do
@@ -58,4 +58,4 @@ group :development do
   gem "web-console"
 end
 
-gem 'view_component'
+gem "view_component"

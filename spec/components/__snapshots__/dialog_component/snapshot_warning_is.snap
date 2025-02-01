@@ -1,0 +1,6 @@
+
+<turbo-frame id="dialog">
+<div class="alert alert-warning rounded flex flex-nowrap">
+  <i class="fas fa-exclamation-triangle"></i><p>Hello, world!</p>
+</div>
+</turbo-frame>

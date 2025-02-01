@@ -1,0 +1,6 @@
+
+<%= turbo_frame_tag "dialog" do %>
+<div class="alert alert-<%= @type %> rounded shadow-lg flex flex-nowrap">
+  <i class="fas <%= icon_class %>"></i><p><%= @message %></p>
+</div>
+<% end %>
