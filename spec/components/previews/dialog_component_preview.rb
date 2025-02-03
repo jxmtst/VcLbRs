@@ -4,6 +4,23 @@ class DialogComponentPreview < Lookbook::Preview
     render DialogComponent.new(message: 'This is an info message.', type: dialog_type.to_sym)
   end
 
-  def list
+  # @!group List
+
+  def info
+    render DialogComponent.new(message: 'This is an info message.', type: 'info')
   end
+
+  def success
+    render DialogComponent.new(message: 'This is an success message.', type: 'success')
+  end
+
+  def warning
+    render DialogComponent.new(message: 'This is an warning message.', type: 'warning')
+  end
+
+  def error
+    render DialogComponent.new(message: 'This is an error message.', type: 'error')
+  end
+
+  # @!endgroup
 end

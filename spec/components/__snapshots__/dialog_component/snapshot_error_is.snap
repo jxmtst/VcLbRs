@@ -1,6 +1,6 @@
 
 <turbo-frame id="dialog">
-<div class="alert alert-error rounded flex flex-nowrap">
+<div class="alert alert-error rounded shadow-lg flex flex-nowrap">
   <i class="fas fa-times-circle"></i><p>Hello, world!</p>
 </div>
 </turbo-frame>

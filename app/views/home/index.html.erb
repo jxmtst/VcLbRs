@@ -5,8 +5,8 @@
   <%= link_to('error', home_path('error'), data: { turbo_frame: 'dialog' }, class: "btn btn-sm btn-error rounded") %>
 </div>
 
-<div class="flex items-center justify-center">
-<%= turbo_frame_tag "dialog" do %>
+<div class="flex items-center justify-center p-4">
+<%= turbo_frame_tag "dialog", class: 'w-full' do %>
   <div></div>
 <% end %>
 </div>
